@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+html {
+    background: white;
+}
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+	text-decoration: none;
+	color: #d54d7b;
+}
+body {
+    max-width: 860px;
+    min-width: 360px;
+    margin: 0px auto;
+    background: #ffffff;
+    padding:0px 5px;
+    text-align:center;
+    color: #656769; 
+    font-size: 15px; 
+    font-family: "Libre Baskerville", serif; 
+    text-shadow: 0 1px 1px #fff; 
+}
+  
+.page-title  {
+    text-align: left;
+    margin:10px 0px;
+    color: #7a7c7f; 
+    font-size: 29px; 
+    font-family: "Libre Baskerville", serif; 
+    line-height: 45px; 
+    text-shadow: 0 1px 1px #fff; 
+}
+.page-title a {
+	 color: #d54d7b;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-container {
+    text-align: left;
+    border-bottom: 2px solid #d54d7b;
+    position: relative;
+    background: #e2e2e2;
+    color: #ffffff;
+}
+.header-container .header-bar  {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+.header-container .header-bar {
+    color: #4d4d4d;
+    font-size: bold;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-container .header-bar a{
+    color: #4d4d4d;
+    font-size: bold;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-container .header-bar a:hover {
+
+color: white;
+    background-color: #d54d7b;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+.footer-container {
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 0px 0px 0px;
+    border-top: 1px solid #ccc;
+}
+.menu-container {
+    text-align: right;
+    margin: 10px 5px;
+}
+.menu-container a {
+    margin: 5px 5px 5px 10px;
+    color: #d54d7b;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu-container a:hover {
+    
+    color: white;
+    background-color: #d54d7b;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+.site-name {
+    color: #d54d7b; 
+    font-family: "Great Vibes", cursive; 
+    font-size: 165px; line-height: 160px; 
+    font-weight: normal; margin-bottom: 0px; 
+    margin-top: 40px; text-align: center; 
+    text-shadow: 0 1px 1px #fff;
+}
+  
+.container  {
+    margin: 5px 0px;
+}
+  
+.demo-container, .login-container, .account-container {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align:left;
+    margin:20px 0px;
+}
+  
+.customer-info-container {
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 0px 5px;
+}
+.product-preview-container {
+    border: none;
+    padding: 5px;
+    width: 250px;
+    margin: 10px ;
+    display: inline-block;
+    text-align:left;
+    background-color: #e2e2e2;
+}
+.product-preview-container a {
+ color: #d54d7b;
+    font-weight: bold;
+    text-decoration: none;
+}
+.product-preview-container a:hover {
+ color: #ffffff;
+ background-color: #d54d7b;
+    font-weight: bold;
+    text-decoration: none;
+}
+.product-preview-container input {
+    width: 50px;
+}
+  
+  
+.product-image {
+    width: 180px;
+    height: 150px;
+    padding-left:10%;
+    
+}
+.product-image:hover {
+    width: 200px;
+    height: 170px;
+    padding-left:5%;
+    
+}
+  
+ul {
+    list-style-type: none;
+    padding-left: 5px;
+    margin:5px;
+}
+  
+  
+.navi-item {
+    margin: 5px 5px 5px 20px;
+}
+  
+.button-update-sc {
+    color: red;
+    margin: 5px 5px 5px 20px;
+}
+  
+.button-send-sc {
+    color: red;
+    margin: 5px 5px 5px 20px;
+}
+  
+.error-message {
+    font-size: 90%;
+    color: red;
+    font-style: italic;
+}
+  
+.price {
+    color: blue;
+    font-weight: bold;
+}
+  
+.subtotal {
+    color: red;
+    font-weight: bold;
+}
+  
+.total {
+    color: red;
+    font-weight: bold;
+    font-size: 120%;
+}
+  
+table td {
+    padding: 5px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+
+.slider-body {
+  height: 100%;
+  
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #d54d7b, #e2e2e2);
+  font-family: 'Ropa Sans', sans-serif;
+}
+.slider {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  
+  
+  
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 100%;
+  height: 600px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+.author-info {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 0.75rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+}
+.author-info a {
+  color: white;
+}
+.slides img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+}
+
+.slider > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+.slider > a:active {
+  top: 1px;
+}
+.slider > a:focus {
+  background: #000;
+}
+
+.inputhover:hover {
+	border: 2px solid #d54d7b;
+}

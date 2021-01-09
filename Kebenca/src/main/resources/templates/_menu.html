@@ -1,0 +1,26 @@
+<div class="menu-container"
+   xmlns:th="http://www.thymeleaf.org"
+   xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4" >
+   <a th:href="@{/}">Comfy Home</a>
+   |
+   <a th:href="@{/productList}">
+   Comfy Things
+   </a>
+   |
+   <a th:href="@{/shoppingCart}">
+   Comfy Cart
+   </a>
+   |
+   <th:block sec:authorize="hasAnyRole('ROLE_MANAGER')">
+      <a th:href="@{/admin/orderList}">
+      Order List
+      </a>
+      |
+   </th:block>
+   <th:block sec:authorize="hasRole('ROLE_MANAGER')">
+      <a th:href="@{/admin/product}">
+      Create Product
+      </a>
+      |
+   </th:block>
+</div>
