@@ -14,6 +14,10 @@
        
       <th:block sec:authorize="!isAuthenticated()">
          <a th:href="@{/admin/login}">Login</a>
+          |
+      </th:block>
+      <th:block sec:authorize="!isAuthenticated()">
+         <a th:href="@{/admin/login}">Register</a>
       </th:block>
    </div>
    

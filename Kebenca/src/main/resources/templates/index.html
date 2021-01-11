@@ -5,46 +5,45 @@
       <title>Shop ComfyBlankets Online</title>
       <link rel="stylesheet" type="text/css" th:href="@{/styles.css}" />
       <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+      <link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wanaka-tree.jpg">
    </head>
    <body>
       <th:block th:include="/_header"></th:block>
       <th:block th:include="/_menu"></th:block>
        
-      <div class="page-title">Comfy Blankets</div>
-      
+      <div class="page-title">Comfy Blankets
+      </div>
+      <p style="text-align: left;">A soft and cozy baby blanket, handmade with lots of love just for your precious little one! Made by a single mom who loves to crochet! I'm new to Etsy and look forward to sharing my creations with you!</p>
       <div class="slider-body">
     <div class="slider">
   
-  <a href="#slide-1">1</a>
-  <a href="#slide-2">2</a>
-  <a href="#slide-3">3</a>
-  <a href="#slide-4">4</a>
-  <a href="#slide-5">5</a>
+  
 
   <div class="slides">
     <div id="slide-1">
     <a href="https://www.instagram.com/babyblanketsati/" target="_blank">
-    <img src="/images/3.jpg" alt="Girl in a jacket" width="100%" height="100%"></a>
+    <img src="/images/3.jpg" alt="Girl in a jacket" ></a>
     </div>
     <div id="slide-2">
       <a href="https://www.instagram.com/babyblanketsati/" target="_blank">
-      <img src="/images/5.jpg" alt="Girl in a jacket" width="100%" height="100%"></a>
+      <img src="/images/2.jpg" alt="Girl in a jacket" ></a>
     </div>
     <div id="slide-3">
       <a href="https://www.instagram.com/babyblanketsati/" target="_blank">
-      <img src="/images/6.jpg" alt="Girl in a jacket" width="100%" height="100%"></a>
+      <img src="/images/5.jpg" alt="Girl in a jacket" ></a>
     </div>
     <div id="slide-4">
       <a href="https://www.instagram.com/babyblanketsati/" target="_blank">
-      <img src="/images/12.jpg" alt="Girl in a jacket" width="100%" height="100%"></a>
+      <img src="/images/12.jpg" alt="Girl in a jacket" ></a>
     </div>
     <div id="slide-5">
       <a href="https://www.instagram.com/babyblanketsati/" target="_blank">
-      <img src="/images/7.jpg" alt="Girl in a jacket" width="100%" height="100%"></a>
+      <img src="/images/7.jpg" alt="Girl in a jacket" ></a>
     </div>
   </div>
 </div>
 </div>
+
       <th:block th:include="/_footer"></th:block>
        <script>
      fetch('https://api.unsplash.com/photos/random/?count=5&client_id=52d8369eb3e2576a5f5b6423865e074e9c7045761bff1ac5664ff3e0bdb57a1d') 
@@ -59,6 +58,7 @@
          `;
        });
     })
+    
        
        </script>
        <script type="text/javascript"></script>
